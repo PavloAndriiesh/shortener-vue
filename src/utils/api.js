@@ -1,5 +1,5 @@
 import axios from 'axios'
-axios.defaults.baseURL = 'http://localhost:3002'
+axios.defaults.baseURL = 'http://34.250.150.216:3002'
 
 export const shorten = ({data, success = () => {}, fail = () => {}} = {}) => {
   axios({

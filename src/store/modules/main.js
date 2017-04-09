@@ -13,7 +13,7 @@ import { getItem, setItem, removeItem } from '../../utils/persistent'
 import { session } from '../../utils/helpers'
 
 const state = {
-  shortcodes: [],
+  shortcodes: []
 }
 
 const actions = {
